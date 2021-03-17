@@ -8,6 +8,9 @@ function App() {
       <header className="App-header">
         <img src={logo} alt="Airbnb logo" />
         <p>This is a project on setting up airbnb style guide.</p>
+        <span style={{ fontSize: '18px' }}>
+          Love to read, check out my blog post on this project
+        </span>
         <a
           className="App-link"
           href="https://github.com/Stephany-Doris/airbnb-style-guide"
@@ -17,6 +20,21 @@ function App() {
           View source code
         </a>
       </header>
+      <div
+        style={{
+          height: '10%',
+          backgroundColor: '#282c34',
+          color: 'aliceblue'
+        }}
+      >
+        <div
+          style={{
+            width: '100%',
+            border: '1px solid aliceblue'
+          }}
+        />
+        <p>Connect with me @github | @linkedIn | @twitter</p>
+      </div>
     </div>
   );
 }
