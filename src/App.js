@@ -17,6 +17,21 @@ function App() {
           View source code
         </a>
       </header>
+      <div
+        style={{
+          height: '10%',
+          backgroundColor: '#282c34',
+          color: 'aliceblue'
+        }}
+      >
+        <div
+          style={{
+            width: '100%',
+            border: '1px solid aliceblue'
+          }}
+        />
+        <p>Connect with me @github | @linkedIn | @twitter</p>
+      </div>
     </div>
   );
 }
