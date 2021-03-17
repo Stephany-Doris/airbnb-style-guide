@@ -8,6 +8,9 @@ function App() {
       <header className="App-header">
         <img src={logo} alt="Airbnb logo" />
         <p>This is a project on setting up airbnb style guide.</p>
+        <span style={{ fontSize: '18px' }}>
+          Love to read, check out my blog post on this project
+        </span>
         <a
           className="App-link"
           href="https://github.com/Stephany-Doris/airbnb-style-guide"
